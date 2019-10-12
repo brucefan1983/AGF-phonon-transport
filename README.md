@@ -14,9 +14,7 @@ A 200-line Matlab implementation of the Atomistic Green's function (AGF) method 
 ## File organizations
 
 * Scripts for testing:
-  * test.m: calculates and plots the phonon transmission in a narrow graphene ribbon
-  * test_ZGNR.m: calculates and plots the phonon transmission in a wider graphene ribbon
-  * plot_G_omega.m: produces figure 2 in the following (unpublished) paper: Z. Li, S. Xiong, C. Sievers, Y. Hu, Z. Fan, N. Wei, H. Bao,  S. Chen, D. Donadio, and T. Ala-Nissila, Influence of Boundaries and Thermostatting on Nonequilibrium Molecular Dynamics Simulations of Heat Conduction in Solids, https://arxiv.org/abs/1905.11024.
+  * test_graphene.m: calculates and plots the phonon transmission in a graphene sheet
 
 * The testing script calls
   * the function "find_r" to construct the simulation model
@@ -44,11 +42,11 @@ A 200-line Matlab implementation of the Atomistic Green's function (AGF) method 
   * mass: amu
   * length: angstrom
 
-## Running the example
+## Uploaded results
 
-* Run the "test.m" script to get the phonon transmision for a very narrow graphene sheet. This only takes a few seconds.
-* Run the "test_ZGNR.m" script to get the phonon transmision in the submitted paper.
-* Run plot_G_omega.m in Matlab to get figure 2 of the submitted paper.
+* `graphene/`: results for graphene
+* `SiNW/`: results for silicon nanowire (Obained by Shiyun Xiong using his code)
+
 ## Contact
 
 * Zheyong Fan: brucenju(at)gmail.com
