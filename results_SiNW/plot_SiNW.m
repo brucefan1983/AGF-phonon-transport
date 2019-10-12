@@ -20,7 +20,7 @@ xlim([0,20]);
 ylim([0,0.15]);
 set(gca,'fontsize',12,'ticklength',get(gca,'ticklength')*2);
 legend('Classical','Quantum');
-text(2,0.46,'Pristine graphene @ 300 K','fontsize',12)
+text(2,0.46,'SiNW @ 300 K','fontsize',12)
 
 trapz(nu,g)
 trapz(nu,g_quantum)
