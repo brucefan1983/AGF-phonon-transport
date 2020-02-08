@@ -5,7 +5,9 @@ A 200-line Matlab implementation of the Atomistic Green's function (AGF) method 
 
 * This is a simple but working code for calculating the phonon transmission in systems described by the Tersoff interatomic potential using the AGF (atomistic Green's function) method. This method is also called the NEGF (nonequilibrium Green's function) method.
 * This code was developed based on the RGF-electron-matlab code: https://github.com/brucefan1983/RGF-electron-matlab. So you see that phonon transport is very similar to electron transport.
-* This code was developed for the following (unpublished) paper: Z. Li, S. Xiong, C. Sievers, Y. Hu, Z. Fan, N. Wei, H. Bao,  S. Chen, D. Donadio, and T. Ala-Nissila, Influence of Boundaries and Thermostatting on Nonequilibrium Molecular Dynamics Simulations of Heat Conduction in Solids, https://arxiv.org/abs/1905.11024. (To be published in J. Chem. Phys.)
+* This code was developed for the following paper: Zhen Li, Shiyun Xiong, Charles Sievers, Yue Hu, Zheyong Fan, Ning Wei, Hua Bao, Shunda Chen, Davide Donadio, and Tapio Ala-Nissila,
+[Influence of Thermostatting on Nonequilibrium Molecular Dynamics Simulations of Heat Conduction in Solids](https://doi.org/10.1063/1.5132543),
+J. Chem. Phys. **151**, 234105 (2019).
 
 ## Good references
 * J.-S. Wang et al., "Quantum thermal transport in nanostructures", Eur. Phys. J. B 62, 381-404 (2008).
